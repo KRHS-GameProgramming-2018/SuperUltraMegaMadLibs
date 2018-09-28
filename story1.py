@@ -6,6 +6,7 @@ def playMadlibs():
     animals1 = getWord("Enter a plural animal name: ")
     shoes1 = getWord("Enter a type of shoe: ")
     things1 = getWord("Enter a plural object: ")
+    place1 = getWord("Enter a place: ")
     output = ""
     output += "One day I was walking with my friend, " + friend1
     output += ", when suddenly " + friend1
@@ -13,7 +14,7 @@ def playMadlibs():
     output += ". We snuck up on them wearing our " + shoes1
     output += ", and took some great pictures with our " + things1
     output += ". Then the " + animals1 + " ran off, and we continued our walk."
-    
+    output += " We then went back to " + place1 + ", and enjoyed the rest of the day."
     
     
     return output
