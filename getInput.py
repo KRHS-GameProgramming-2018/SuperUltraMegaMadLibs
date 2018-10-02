@@ -13,7 +13,11 @@ def getMenuInput():
               or response == "X"
               or response == "Exit"):
               response = "Q"
-              goodInput = True              
+              goodInput = True  
+        elif (response == "2"
+              or response == "Two"):
+              response = "2"
+              goodInput = True
         else:
             print "Please make a valid choice"
     return response
