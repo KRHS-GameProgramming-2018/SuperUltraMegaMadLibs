@@ -18,6 +18,10 @@ def getMenuInput():
               or response == "Two"):
               response = "2"
               goodInput = True
+        elif (response == "3"
+              or response == "Three"):
+              response = "3"
+              goodInput = True
         else:
             print "No, not that one!"
     return response
@@ -29,7 +33,7 @@ def getWord(prompt):
         if not isSwear(word):
             goodInput = True
         else:
-            print "Watch your profanity!"
+            print "WATCH YO PROFANITY!"
     return word
     
 def getNumber(prompt, minNumber, maxNumber):
@@ -51,9 +55,22 @@ def getNumber(prompt, minNumber, maxNumber):
     return word
 
 def isSwear(word):
-    swearList = ["poop",
-                "piss"
-                ]
+    swearList = ["piss",
+                "Fortnite",
+                 "Nigger",
+                 "shit",
+                 "bitch",
+                 "fuck",
+                 "fuk",
+                 "bloody wanka",
+                 "faggot",
+                 "ass",
+                 "dab"
+                 "bitch nigga'",
+                 "assbag",
+                 "arse",
+                 "arsehole",
+                 "ass jabber",]
     if word in swearList:
         return True
     else:
