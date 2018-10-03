@@ -19,7 +19,7 @@ def getMenuInput():
               response = "2"
               goodInput = True
         else:
-            print "Please make a valid choice"
+            print "No, not that one!"
     return response
     
 def getWord(prompt):
@@ -29,7 +29,7 @@ def getWord(prompt):
         if not isSwear(word):
             goodInput = True
         else:
-            print "Watch your language!"
+            print "Watch your profanity!"
     return word
     
 def getNumber(prompt, minNumber, maxNumber):
