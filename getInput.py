@@ -33,7 +33,7 @@ def getWord(prompt):
         if not isSwear(word):
             goodInput = True
         else:
-            print "WATCH YO PROFANITY!"
+            print "Do You kIss YouR mOthEr WitH tHat MouTh ?!?!"
     return word
     
 def getNumber(prompt, minNumber, maxNumber):
@@ -56,8 +56,9 @@ def getNumber(prompt, minNumber, maxNumber):
 
 def isSwear(word):
     swearList = ["piss",
-                "Fortnite",
+                "fortnite",
                  "Nigger",
+                 "nigger",
                  "shit",
                  "bitch",
                  "fuck",
