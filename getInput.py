@@ -71,7 +71,10 @@ def isSwear(word):
                  "assbag",
                  "arse",
                  "arsehole",
-                 "ass jabber",]
+                 "ass jabber",
+                 "dick",
+                 "Dick",
+                 "Dicks",]
     if word in swearList:
         return True
     else:
