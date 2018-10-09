@@ -21,6 +21,9 @@ while go:
     elif response == "3":
         print story3.playMadlibs()
         raw_input("Press Enter to Continue")
+    elif response == "4":
+        print showCredits()
+        response = getMenuInput()
     else:
         print "OMG Got invalid menu option!!!"
 

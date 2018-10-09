@@ -26,7 +26,7 @@ def showMenu():
     output += "|   Q) Quit                           |\n"
     output += "|                                     |\n"
     output += "---------------------------------------\n"
-def showMenu():
+def showCredits():
     output = ""
     output += "---------------------------------------\n"
     output += "|Credits:                             |\n"
