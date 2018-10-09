@@ -22,6 +22,10 @@ def getMenuInput():
               or response == "Three"):
               response = "3"
               goodInput = True
+        elif (response == "4"
+              or response == "Four"):
+              response = "4"
+              goodInput = True
         else:
             print "No, not that one!"
     return response
