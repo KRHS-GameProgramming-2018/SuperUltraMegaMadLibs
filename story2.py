@@ -21,9 +21,9 @@ def playMadlibs():
     output += "As a " + job1 + ", it was a part of " + name1 + "'s job description. "
     output += name1 + " had to be " + sneak1 + ", so they wore their " + color1 + " " + objects1 + ". "
     output += "Suddenly, " + name1 + " heard the sound of a wailing " + sound1 + ", so they hid inside of a " + object2 + ". "
-    output += "When they got out, they were " + verb1 + " by " + name2 + ", who was a " + job2 + "."
-    output += name1 + " was subsequently put in " + noun1 + ", but he had a plan."
-    output += "The plan was to escape by " + transport1 + ", and the way " + name1 + "would get out to begin with would be by " + breakout1 + "."
+    output += "When they got out, they were " + verb1 + " by " + name2 + ", who was a " + job2 + ". "
+    output += name1 + " was subsequently put in " + noun1 + ", but he had a plan. "
+    output += "The plan was to escape by " + transport1 + ", and the way " + name1 + " would get out to begin with would be by " + breakout1 + "."
   
   
     return output
