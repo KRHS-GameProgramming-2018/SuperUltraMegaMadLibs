@@ -74,7 +74,25 @@ def isSwear(word):
                  "ass jabber",
                  "dick",
                  "Dick",
-                 "Dicks",]
+                 "Dicks",
+                 "vagina",
+                 "tits",
+                 "titties",
+                 "boobs",
+                 "steve jobs",
+                 "jake paul",
+                 "Jake Paul",
+                 "logan paul",
+                 "Logan Paul",
+                 "drugs",
+                 "cocaine",
+                 "meth",
+                 "crystal meth",
+                 "crack",
+                 "weed",
+                 "pot",
+                 "memes",
+                 "Howard the Alien",]
     if word in swearList:
         return True
     else:
