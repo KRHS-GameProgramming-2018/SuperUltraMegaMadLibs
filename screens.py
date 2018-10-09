@@ -26,6 +26,21 @@ def showMenu():
     output += "|   Q) Quit                           |\n"
     output += "|                                     |\n"
     output += "---------------------------------------\n"
+def showMenu():
+    output = ""
+    output += "---------------------------------------\n"
+    output += "|Credits:                             |\n"
+    output += "|   Creators: Jake Bender             |\n"
+    output += "|             Caden Gainer            |\n"
+    output += "|                                     |\n"
+    output += "|   Screens Creator: Jake Bender      |\n"
+    output += "|   Story Creators: Jake Bender       |\n"
+    output += "|                   Caden Gainer      |\n"
+    output += "|                                     |\n"
+    output += "|   Everything was by Jake Bender     |\n"
+    output += "|                 &                   |\n"
+    output += "|          Caden Gainer               |\n"
+    output += "---------------------------------------\n"
 
     
     return output
