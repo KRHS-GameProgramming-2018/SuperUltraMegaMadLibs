@@ -12,3 +12,6 @@ def playMadlibs():
     output += "We never spoke again"
     output += "THE END"
     output += "Congradulations you are a lonley bastard"
+
+
+    return output
