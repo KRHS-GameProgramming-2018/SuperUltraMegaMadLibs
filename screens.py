@@ -26,6 +26,10 @@ def showMenu():
     output += "|   Q) Quit                           |\n"
     output += "|                                     |\n"
     output += "---------------------------------------\n"
+    
+    
+    return output
+
 def showCredits():
     output = ""
     output += "---------------------------------------\n"
@@ -39,7 +43,9 @@ def showCredits():
     output += "|                                     |\n"
     output += "|   Everything was by Jake Bender     |\n"
     output += "|                 &                   |\n"
-    output += "|          Caden Gainer               |\n"
+    output += "|            Caden Gainer             |\n"
+    output += "|                                     |\n"
+    output += "|     Enter Anything to Continue      |\n"
     output += "---------------------------------------\n"
 
     
