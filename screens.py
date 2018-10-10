@@ -45,7 +45,7 @@ def showCredits():
     output += "|                 &                   |\n"
     output += "|            Caden Gainer             |\n"
     output += "|                                     |\n"
-    output += "|     Enter Anything to Continue      |\n"
+    output += "|     Enter a Number to Continue      |\n"
     output += "---------------------------------------\n"
 
     
