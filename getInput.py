@@ -96,7 +96,22 @@ def isSwear(word):
                  "weed",
                  "pot",
                  "memes",
-                 "Howard the Alien",]
+                 "Howard the Alien",
+                 "Bastard",
+                 "gun",
+                 "Guns",
+                 "guns",
+                 "Barney",
+                 "mamma big dick on a nigga",
+                 "shit man",
+                 "Damb",
+                 "damb",
+                 "motherfucker",
+                 "christ on a cracker",
+                 "christ on a bike",
+                 "son of a motherless goat",
+                 "son of a bitch",
+                 "cunt",]
     if word in swearList:
         return True
     else:
