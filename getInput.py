@@ -111,7 +111,21 @@ def isSwear(word):
                  "christ on a bike",
                  "son of a motherless goat",
                  "son of a bitch",
-                 "cunt",]
+                 "cunt",
+                 "qwerty",
+                 "aswd",
+                 "forknife",
+                 "fork on knife",
+                 "swear",
+                 "jesus",
+                 "heyzeus",
+                 "jesus's blowhole",
+                 "child fucker",
+                 "pussy",
+                 "pus pus",
+                 "pu$ pu$",
+                 "pu$$y",
+                 "skull trooper",]
     if word in swearList:
         return True
     else:
