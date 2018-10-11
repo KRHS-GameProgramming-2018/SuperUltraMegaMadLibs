@@ -15,7 +15,7 @@ def playMadlibs():
     noun1 = getWord ("Please Enter a Noun: ")
     transport1 = getWord ("Please Enter a Mode of Transportation: ")
     breakout1 = getWord ("Please Enter an Escape Method: ")
-    time1 = getWord ("Please Enter a measurment of Time [I.E. 1 year]: ")
+    time1 = getWord ("Please Enter an Amount of Time [I.E. 1 year]: ")
     
     output = ""
     output += "One " + daytime1 + ", " + name1 + " was sneaking around. "
