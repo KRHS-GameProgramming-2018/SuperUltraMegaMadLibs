@@ -7,11 +7,9 @@ def playMadlibs():
     
     output = ""
     output += "One day I was calling " + Person1 + " on the phone. "
-    output += Person1 + " said we should meet up at " + place1
-    output += " when I got to " + place1 + ", " + Person1 + " was holding a(n) " + object1
-    output += " We never spoke again "
-    output += " THE END"
-    output += " Congradulations you are a lonley bastard"
-
-
+    output += Person1 + " said we should meet up at " + place1 + "."
+    output += " when I got to " + place1 + ", " + Person1 + " was holding a(n) " + object1 + "."
+    output += " 
+    
+    
     return output
