@@ -16,6 +16,8 @@ def playMadlibs():
     transport1 = getWord ("Please Enter a Mode of Transportation: ")
     breakout1 = getWord ("Please Enter an Escape Method: ")
     time1 = getWord ("Please Enter an Amount of Time [I.E. 1 year]: ")
+    hideout1 = getWord ("Please Enter a Noun: ")
+    guards1 = getWord ("Please enter a plural job: ")
     
     output = ""
     output += "One " + daytime1 + ", " + name1 + " was sneaking around. "
@@ -25,8 +27,8 @@ def playMadlibs():
     output += "When they got out, they were " + verb1 + " by " + name2 + ", who was a " + job2 + ". "
     output += name1 + " was subsequently put in " + noun1 + ", but he had a plan. "
     output += "The plan was to escape by " + transport1 + ", and the way " + name1 + " would get out to begin with would be by " + breakout1 + "."
-    output += "When the breakout occured, the " + guards1 + " immediately started searching the " + noun1 + "."
-    output += name1 + " was soon caught again, and would be stuck in " + noun1 + " for " + time1 + "."
+    output += "When the breakout occured, the " + guards1 + " immediately started searching the entire " + noun1 + "."
+    output += name1 + " tried to hide in " + hideout1 + ", but was soon caught again, however, and would be captured and stuck in " + noun1 + " for " + time1 + "."
     output += "He was never heard from again until then."
     return output
 
