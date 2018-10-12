@@ -126,7 +126,8 @@ def isSwear(word):
                  "pu$ pu$",
                  "pu$$y",
                  "skull trooper",
-                 "ligma",]
+                 "ligma",
+                 "dildo",]
     if word in swearList:
         return True
     else:
