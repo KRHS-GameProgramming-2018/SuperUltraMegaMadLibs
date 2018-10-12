@@ -27,6 +27,6 @@ def playMadlibs():
     output += "The plan was to escape by " + transport1 + ", and the way " + name1 + " would get out to begin with would be by " + breakout1 + "."
     output += "When the breakout occured, the " + guards1 + " immediately started searching the " + noun1 + "."
     output += name1 + " was soon caught again, and would be stuck in " + noun1 + " for " + time1 + "."
-  
+    output += "He was never heard from again until then."
     return output
 
