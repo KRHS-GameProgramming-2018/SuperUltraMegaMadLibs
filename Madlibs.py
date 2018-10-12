@@ -4,8 +4,6 @@ import story1
 import story2
 import story3
 
-#test
-
 print showSplash()
 raw_input("Press Enter to Start")
 
