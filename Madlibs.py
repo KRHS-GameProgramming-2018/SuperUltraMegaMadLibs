@@ -14,7 +14,7 @@ while go:
     response = getMenuInput()
     if response == "Q":
         go = False
-        print "Goodbye and thanks for playing this horible game"
+        print "Goodbye and thanks for playing"
     elif response == "1":
         print story1.playMadlibs()
     elif response == "2":

@@ -17,8 +17,8 @@ def playMadlibs():
     breakout1 = getWord ("Please Enter an Escape Method: ")
     time1 = getWord ("Please Enter an Amount of Time [I.E. 1 year]: ")
     hideout1 = getWord ("Please Enter a Noun: ")
-    guards1 = getWord ("Please enter a plural job: ")
-    
+    guards1 = getWord ("Please enter a Plural Job Name: ")
+    place1 = getWord ("Please Enter a Place: ")
     output = ""
     output += "One " + daytime1 + ", " + name1 + " was sneaking around. "
     output += "As a " + job1 + ", it was a part of " + name1 + "'s job description. "
@@ -30,5 +30,7 @@ def playMadlibs():
     output += "When the breakout occured, the " + guards1 + " immediately started searching the entire " + noun1 + "."
     output += name1 + " tried to hide in " + hideout1 + ", but was soon caught again, however, and would be captured and stuck in " + noun1 + " for " + time1 + "."
     output += "They were never heard from again until the end of their " + time1 + " sentence."
+    output += "When " + name1 + " got out, they immediately went to " + place1 + ", and became a hermit."
+    
     return output
 
