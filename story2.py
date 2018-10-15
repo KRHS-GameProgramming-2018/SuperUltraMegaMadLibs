@@ -25,10 +25,10 @@ def playMadlibs():
     output += name1 + " had to be " + sneak1 + ", so they wore their " + color1 + " " + objects1 + ". "
     output += "Suddenly, " + name1 + " heard the sound of a wailing " + sound1 + ", so they hid inside of a " + object2 + ". "
     output += "When they got out, they were " + verb1 + " by " + name2 + ", who was a " + job2 + ". "
-    output += name1 + " was subsequently put in " + noun1 + ", but he had a plan. "
+    output += name1 + " was subsequently put in " + noun1 + " because they were trespassing, but they had a plan. "
     output += "The plan was to escape by " + transport1 + ", and the way " + name1 + " would get out to begin with would be by " + breakout1 + "."
     output += "When the breakout occured, the " + guards1 + " immediately started searching the entire " + noun1 + "."
     output += name1 + " tried to hide in " + hideout1 + ", but was soon caught again, however, and would be captured and stuck in " + noun1 + " for " + time1 + "."
-    output += "He was never heard from again until then."
+    output += "They were never heard from again until the end of their " + time1 + " sentence."
     return output
 
