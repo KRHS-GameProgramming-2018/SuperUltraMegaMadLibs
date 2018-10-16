@@ -41,7 +41,7 @@ def showCredits():
     output += "|   Story Creators: Jake Bender       |\n"
     output += "|                   Caden Gainer      |\n"
     output += "|                                     |\n"
-    output += "|   Everything was by Jake Bender     |\n"
+    output += "| Created by: Jake Bender             |\n"
     output += "|                 &                   |\n"
     output += "|            Caden Gainer             |\n"
     output += "|                                     |\n"
