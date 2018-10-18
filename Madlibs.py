@@ -25,6 +25,9 @@ while go:
     elif response == "4":
         print showCredits()
         response = getMenuInput()
+    elif response == "5":
+        print showIndy()
+        response = getMenuInput()
     else:
         print "OMG Got invalid menu option!!!"
 

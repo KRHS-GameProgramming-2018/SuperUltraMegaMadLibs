@@ -19,7 +19,7 @@ def showMenu():
     output += "|                                     |\n"
     output += "|   2) The Suspicious Sneaker         |\n"
     output += "|                                     |\n"
-    output += "|   3) The Big Brake!                 |\n"
+    output += "|   3) A Million Places               |\n"
     output += "|                                     |\n"
     output += "|   4) Credits                        |\n"
     output += "|                                     |\n"
@@ -48,5 +48,22 @@ def showCredits():
     output += "|     Enter a Number to Continue      |\n"
     output += "---------------------------------------\n"
 
+def showIndy():
+    output = ""
+    output += "---------------------------------------\n"
+    output += "|           Congratulations!          |\n"
+    output += "|   You found the hidden easter egg!  |\n"
+    output += "|        Now, go subscribe to:        |\n"
+    output += "|              IndyBender             |\n"
+    output += "|                  On:                |\n"
+    output += "|                YouTube              |\n"
+    output += "|                 Twitch              |\n"
+    output += "|                Twitter              |\n"
+    output += "|       And turn on notifications!    |\n"
+    output += "|                                     |\n"
+    output += "|                                     |\n"
+    output += "|                                     |\n"
+    output += "|     Enter a Number to Continue      |\n"
+    output += "---------------------------------------\n"
     
     return output
