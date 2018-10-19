@@ -34,7 +34,7 @@ def getMenuInput():
               response = "5"
               goodInput = True
         else:
-            print "No, not that one!"
+            print "I'm afraid that doesn't work, old chap!"
     return response
     
 def getWord(prompt):
@@ -44,7 +44,7 @@ def getWord(prompt):
         if not isSwear(word):
             goodInput = True
         else:
-            print "Do You kIss YouR mOthEr WitH tHat MouTh ?!?!"
+            print "Do You Kiss Your Mother With That Mouth ?!?!"
     return word
     
 def getNumber(prompt, minNumber, maxNumber):
