@@ -17,7 +17,7 @@ def playMadlibs():
     breakout1 = getWord ("Please Enter an Escape Method: ")
     time1 = getWord ("Please Enter an Amount of Time [I.E. 1 year]: ")
     hideout1 = getWord ("Please Enter a Noun: ")
-    guards1 = getWord ("Please enter a Plural Job Name: ")
+    guards1 = getWord ("Please enter a job name ending in 's': ")
     place1 = getWord ("Please Enter a Place: ")
     output = ""
     output += "One " + daytime1 + ", " + name1 + " was sneaking around. "
