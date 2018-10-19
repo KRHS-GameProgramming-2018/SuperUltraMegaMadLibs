@@ -22,7 +22,7 @@ def playMadlibs():
     output +=  Person1 + " said that they had no idea that there was a concert in " + place1 + "."
     output += " We desided to go to a different place, this time I was picking where."
     output += " When we arived at " + Place2 + " There was a homless man" + action1 + "."
-    output += " I suddenly heard a breakout of cheering. when i turneed around there was a consert for " + person2 +
+    output += " I suddenly heard a breakout of cheering. when i turneed around there was a consert for " + person2 
     output +=  Person1 + "said they had no idea that there was a concert in " + place1
     output += " we desided to go to a different place, this time i was picking where. "
     output += " when we arived at " + Place2 + " There was a homless man" + action1 + "."
