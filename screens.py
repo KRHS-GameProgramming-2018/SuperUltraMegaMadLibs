@@ -48,6 +48,8 @@ def showCredits():
     output += "|     Enter a Number to Continue      |\n"
     output += "---------------------------------------\n"
 
+    return output
+
 def showIndy():
     output = ""
     output += "---------------------------------------\n"
