@@ -30,7 +30,7 @@ def showMenu():
     
     return output
 
-def showCredits():
+def showCredits():                                              #Spooner - It would be awseome if you showed who wrote each story!
     output = ""
     output += "---------------------------------------\n"
     output += "|Credits:                             |\n"
