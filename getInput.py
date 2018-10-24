@@ -139,3 +139,5 @@ def isSwear(word):
         return True
     else:
         return False
+   
+# Spooner - How about custom getters?
