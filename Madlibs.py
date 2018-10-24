@@ -21,7 +21,7 @@ while go:
         print story2.playMadlibs()
     elif response == "3":
         print story3.playMadlibs()
-        raw_input("Press Enter to Continue")
+        raw_input("Press Enter to Continue")        #Sponer - Why is this the only story to get this message?
     elif response == "4":
         print showCredits()
         response = getMenuInput()
