@@ -8,6 +8,7 @@ def playMadlibs():
     things1 = getWord("Enter a plural object: ")
     place1 = getWord("Enter a place: ")
     item1 = getWord("Enter a noun: ")
+    # One more getter would be great; Also you don't have any custo getters
     output = ""
     output += "One day I was walking with my friend, " + friend1
     output += ", when suddenly " + friend1
