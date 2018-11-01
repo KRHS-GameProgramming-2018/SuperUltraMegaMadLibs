@@ -10,7 +10,7 @@ def playMadlibs():
     action1 = getWord ("please enter an action ending in ING ")
     game1 = getWord ("please enter a video game title")
 
-
+    #You should have a custom getter
 
     output = ""
     output += "One day I was calling " + Person1 + " on the phone. "
