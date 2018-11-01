@@ -19,6 +19,7 @@ def playMadlibs():
     hideout1 = getWord ("Please Enter a Noun: ")
     guards1 = getWord ("Please enter a job name ending in 's': ")
     place1 = getWord ("Please Enter a Place: ")
+    #Good work, but you need a custom getter
     output = ""
     output += "One " + daytime1 + ", " + name1 + " was sneaking around. "
     output += "As a " + job1 + ", it was a part of " + name1 + "'s job description. "
