@@ -1,4 +1,5 @@
-
+# Over all quit good, but you don't have any custom getters which is one of the major parts of this project. If you can write a custom getter we can up the grade significantly.
+# 145/200 - P
 from screens import *
 from getInput import *
 import story1
